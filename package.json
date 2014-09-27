@@ -1,0 +1,65 @@
+{
+  "name": "cli-mid-convert",
+  "version": "1.0.0",
+  "description": "Option coercion middleware",
+  "author": "muji <noop@xpm.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeformsystems/cli-mid-convert"
+  },
+  "bugs": {
+    "url": "https://github.com/freeformsystems/cli-mid-convert/issues",
+    "email": "muji <noop@xpm.io>"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/freeformsystems/cli-mid-convert/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "middleware",
+    "command",
+    "convert",
+    "coerce"
+  ],
+  "dependencies": {
+    "cli-types": "~0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4"
+  },
+  "engine": [
+    "node >= 0.10.21"
+  ],
+  "scripts": {
+    "readme": "mdp --force -v",
+    "test": "istanbul cover _mocha -- -u bdd --recursive --bail --reporter list -A test/spec"
+  },
+  "mdp": {
+    "title": "Convert Middleware",
+    "pedantic": true,
+    "include": "doc/readme",
+    "require": "lib",
+    "links": "links.md",
+    "toc": "Table of Contents",
+    "base": "https://github.com/freeformsystems/cli-mid-convert",
+    "partial": [
+      {
+        "inc": [
+          "introduction.md",
+          "install.md",
+          "test.md"
+        ]
+      },
+      {
+        "inc": [
+          "license.md"
+        ]
+      }
+    ]
+  }
+}
