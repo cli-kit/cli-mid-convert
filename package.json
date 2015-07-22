@@ -1,6 +1,6 @@
 {
   "name": "cli-mid-convert",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Option coercion middleware",
   "author": "muji <noop@xpm.io>",
   "repository": {
